@@ -1,0 +1,36 @@
+.filters{
+    padding: 0 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 16px;
+    color: #505050;
+
+    &Items{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.input{
+    height: 40px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    padding: 0 14px;
+
+}
+
+.select{
+    height: 40px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    padding: 0 14px;
+}
